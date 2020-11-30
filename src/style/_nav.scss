@@ -1,0 +1,30 @@
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  button {
+    padding: 10px 25px;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgb(233, 233, 233);
+      color: #313131;
+    }
+
+    svg {
+      margin-left: 10px;
+    }
+  }
+}
+
+.active-library {
+  transform: translateX(0);
+  opacity: 1;
+}
